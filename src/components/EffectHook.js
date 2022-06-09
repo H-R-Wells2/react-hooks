@@ -11,11 +11,11 @@ const EffectHook = () => {
 
     useEffect(() => {
 
-            axios.get('https://jsonplaceholder.typicode.com/comments')
-                .then(response => {
-                    setData(response.data[count].email)
-                })
-        
+        axios.get('https://jsonplaceholder.typicode.com/comments')
+            .then(response => {
+                setData(response.data[count].email)
+            })
+
     }, [count])
 
 
