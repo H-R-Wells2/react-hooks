@@ -1,3 +1,4 @@
+// useState hook
 import React, { useState } from 'react'
 
 const StateHook = () => {
@@ -25,9 +26,9 @@ const StateHook = () => {
         <>
             <h1 className='text-xl font-mono font-medium mt-3 bg-blue-600 text-white '>State Hook</h1>
             <div className='flex mt-5 justify-center'>
-                <button onClick={decrease} className='bg-blue-600 px-4 rounded-lg text-white font-bold'>-</button>
+                <button onClick={decrease} className='btn-bold'>-</button>
                 <h1 className='text-2xl mx-5 w-9'>{count}</h1>
-                <button onClick={increase} className='bg-blue-600 px-4 rounded-lg text-white font-bold'>+</button>
+                <button onClick={increase} className='btn-bold'>+</button>
 
             </div>
             <div className='flex mt-5 justify-center'>

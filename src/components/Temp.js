@@ -15,7 +15,7 @@ const Temp = () => {
                     else {
                         setToogle("ON")
                     }
-                }} className='bg-blue-600 px-4 w-20 rounded-lg text-white font-bold'>{toogle}</button>
+                }} className='btn-bold'>{toogle}</button>
             </div>
 
         </>
