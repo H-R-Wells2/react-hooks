@@ -1,5 +1,6 @@
 import './App.css';
 import EffectHook from './components/EffectHook';
+import LayoutEffectHook from './components/LayoutEffectHook';
 import ReducerHook from './components/ReducerHook';
 import RefHook from './components/RefHook';
 import StateHook from './components/StateHook';
@@ -14,6 +15,7 @@ function App() {
       <Temp />
       <EffectHook />
       <RefHook />
+      <LayoutEffectHook />
     </div>
   );
 }
