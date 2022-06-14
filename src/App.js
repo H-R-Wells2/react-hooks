@@ -1,5 +1,6 @@
 import './App.css';
 import EffectHook from './components/EffectHook';
+import ImperativeHandle from './components/ImperativeHandle';
 import LayoutEffectHook from './components/LayoutEffectHook';
 import ReducerHook from './components/ReducerHook';
 import RefHook from './components/RefHook';
@@ -16,6 +17,7 @@ function App() {
       <EffectHook />
       <RefHook />
       <LayoutEffectHook />
+      <ImperativeHandle />
     </div>
   );
 }
